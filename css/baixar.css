@@ -1,0 +1,198 @@
+*{
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'Lato', sans-serif;
+   
+}
+#rainha span, p{
+   font-size: 16px;
+}
+#rainha h2 {
+   color: red;
+}
+#joker {
+   font-family: jokerman;
+}
+pre {
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 500px;
+    overflow-y: hidden;
+       
+}
+code {
+
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+#elenco, #Ol1 {
+   margin-top: -90px;
+ /*margin-bottom: 1rem; */
+display: grid;
+grid-template-columns: 7rem 7rem 7rem 7rem; 
+grid-template-rows: repeat(0, 4.5rem); 
+text-align: center;  
+
+
+}
+#elenco li, #Ol1 li{
+   padding: 2%;
+    margin: 1%;
+    height: 400px;
+    min-width: 60vh;
+/*border: 1px solid #4386f4; */
+border-radius: 8px;
+box-sizing: border-box;
+display: flex; 
+justify-content: space-around;
+background-repeat: no-repeat;
+background-size: 7rem 7rem;
+background-position: top .6rem center;
+padding-top: 2rem;
+transition: .25s; 
+text-align: center;
+
+
+
+}
+
+#elenco li:hover, #Ol1 li:hover {
+ transform: translate(0, .22rem);
+background-color: rgba(66, 134, 244, 0.337);
+transition: .25s;
+      }
+
+#elenco .baixa, #Ol1 .baixa {
+   /*     
+        height: 350px;
+      */
+ 
+   text-align: center;
+   width: 100%;
+   
+    }
+    figure div a{
+       /* margin: 0 12px;
+         width: 10% !important; 
+        border: 1px solid yellow; */
+        width: 10%;
+
+    }
+    figure div{
+      /*   margin-top: -16px; 
+         width: 100% !important;
+         height: 10vh; 
+         border: 1px solid black; */
+         margin-top: -6vh;
+         text-align: center;
+         padding-left: 28%;
+
+    }
+    figcaption{
+        font-size: 14px;
+        font-family: 'Times New Roman' sans-serif;
+       
+          
+    }
+
+#elenco img, #Ol1 img{
+    margin-left: -125px !important;
+    width: 40vh;
+    height: 250px;
+    margin-top: -100px;
+    border-radius: 8px;
+}
+/*
+#elenco #pic8{
+    margin-left: -370px !important;
+}
+#elenco #pic7{
+    margin-left: -300px !important;
+}
+*/
+#elenco img:hover, #Ol1 img:hover {
+    background-color: rgba(0,0,0,0.8);
+box-shadow: 0 0 5px #333;
+transition: 0.7s ease-in;
+transform: scale(1.2);
+}
+
+#filme {
+    max-height: 500px; 
+   
+}
+
+.baixa button{
+  /*  display: inline-block;
+    text-align: left !important;
+    
+    float: left;
+    z-index: 1;  */
+  width: 10%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  margin-top: -5px !important;
+  
+  margin-left: 1%;
+  margin-right: 1%;
+  
+
+}
+
+.baixa svg {
+
+   margin-left: -145px;
+
+   border: 1px solid black;
+   background-color: rgba(255,255,255,.2);
+     box-shadow: inset 0 0 25px rgba(255,255,255,0.15),
+                 inset 0 4px 0 rgba(0,0,0,0.05),
+                 inset 0 -4px 0 rgba(0,0,0,0.05),
+                 inset 0 10px 10px rgba(0,0,0,0.09),
+                 0 1px 0 rgba(0,0,0,0.1),
+                 0 8px 7px rgba(0,0,0,0.1);
+    
+}
+svg:hover{
+    background: #cecece;
+    color: rgba(66, 134, 244, 1);
+  }
+.baixa p{
+    margin-top: -15px;
+}
+#primeiro, #quarto, #sexto, #setimo, #primeiro1, #quarto1, #sexto1, #setimo1 {
+    margin-top: -6vh;
+      
+}
+#segundo, #segundo1{
+    margin-top: -6vh;
+}
+#terceiro, #quinto, #oitavo, #terceiro1, #quinto1, #oitavo1 {
+    margin-top: -6vh;
+}
+
+#primeiro svg, #terceiro svg{
+    margin-left: -155px !important;
+}
+
+#segundo svg, #quarto svg{
+    margin-left: -145px !important;
+}
+
+#quinto svg{
+    margin-left: -175px !important;
+}
+
+#sexto svg{
+    margin-left: -166px !important;  
+}
+#setimo svg{
+    margin-left: -170px !important;
+}
+#oitavo svg{
+    margin-left: -185px !important;  
+}
+
